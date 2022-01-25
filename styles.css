@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&family=Readex+Pro:wght@200;300&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    --max-width: 60vw;
+}
+
+
+
+
+body{
+    background-color: rgb(25, 25, 27);
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    width: var(--max-width);
+}
+
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    width: var(--max-width);
+    margin: auto;
+    padding-top: 200px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 500px;
+    border: 2px solid white;
+}
+.counter-box{
+    display: block;
+}
+
+
+
+h1{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.number p{
+    text-align: center;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 200px;
+    font-weight: 700;
+    color: white;
+}
+
+
+button{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 8px;
+}
+
+button:hover{
+    background: none;
+    color: white;
+    transition: 0.3s ease;
+}
+
+button p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+
+
+
+.increment-color{
+    color: yellow;
+}
+
+.decrement-color{
+    color: red;
+}
